@@ -1,0 +1,94 @@
+.about-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Add responsive styles for the about container */
+@media screen and (max-width: 991px) {
+  .about-container {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-subtitle {
+  color: #2c98f0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-text {
+  margin-bottom: 40px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.service-card {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 40px;
+  color: #2c98f0;
+  margin-bottom: 20px;
+}
+
+.service-card h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .service-cards {
+    flex-direction: column;
+  }
+  
+  .service-card {
+    margin-bottom: 20px;
+  }
+}

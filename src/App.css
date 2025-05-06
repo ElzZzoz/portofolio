@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
