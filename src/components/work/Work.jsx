@@ -21,7 +21,7 @@ const Work = () => {
       description: "A customizable portfolio template for developers",
       image: portfolioImg,
       tags: ["HTML", "CSS", "JavaScript" , "React" ,"Bootstrap"],
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/ElzZzoz/portofolio",
       demo: "/", // Changed to home route
       isInternal: true // Flag to identify internal links
     },
