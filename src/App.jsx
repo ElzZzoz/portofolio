@@ -40,7 +40,9 @@ const router = createBrowserRouter([
     path: "*",
     element: <NotFound />
   }
-]);
+], {
+  basename: '/portofolio' // Add this line to match your vite.config.js base path
+});
 
 function App() {
   return <RouterProvider router={router} />
